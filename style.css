@@ -1,0 +1,29 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 2rem;
+  background-image: linear-gradient(to bottom right, #27EBBD, #952EE9);
+}
+
+.keys{
+  font-family: 'Share Tech Mono', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  padding: 1rem;
+}
+
+.key{
+  padding: 1rem;
+  margin: .6rem;
+  border: .3rem solid black;
+  text-align: center;
+  width: 2rem;
+  border-radius: .4rem;
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color: white;
+  box-shadow: 0 0 1rem white;
+}
